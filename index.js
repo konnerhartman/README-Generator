@@ -42,7 +42,7 @@ inquirer
         {
             type: 'input',
             name: 'lesson',
-            message: 'What did you lern while builing this?',
+            message: 'What did you learn while builing this?',
         },
         {
             type: 'input',
@@ -59,10 +59,21 @@ inquirer
             name: 'license',
             message: 'What is your Github Url?',
             choices: [
-                'MIT',
-                'ISC',
-                'Open',
+                'The MIT License',
+                'ISC License (ISC)',
+                'Open Database License (ODbL)',
+                'Public Domain Dedication and License (PDDL)',
+                'Mozilla Public License 2.0',
+                'IBM Public License Version 1.0',
+                'Eclipse Public License 1.0',
+                'Apache 2.0 License',
+                'The Unlicense',
             ]
+        },
+        {
+            type: 'input',
+            name: 'repo',
+            message: 'Please enter your repository name (for licensing).',
         },
         {
             type: 'input',
