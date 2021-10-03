@@ -14,49 +14,45 @@
 function generateMarkdown(answers) {
   return `# ${answers.title}
   
-  ==========================================================
   ## Description
   ${answers.description}
   <br/>
+  <br/>
   ${answers.motivation}
+  <br/>
   <br/>
   ${answers.reason}
   <br/>
+  <br/>
   ${answers.problem}
+  <br/>
   <br/>
   ${answers.lesson}
   
-  ==========================================================
   ## Table of Contents
   - [Description](#)
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [Contributors](#contributors)
+  - [Credits](#credits)
   - [Tests](#tests)
   - [Questions](#questions)
   
-  ==========================================================
   ## Installation
   ${answers.installation}
   
-  ==========================================================
   ## Usage
   ${answers.usage}
   
-  ==========================================================
   ## License
   ${answers.license}
   
-  ==========================================================
-  ## Contributors
+  ## Credits
   ${answers.credits}
   
-  ==========================================================
   ## Tests
   ${answers.test}
   
-  ==========================================================
   ## Questions
   Any questions can be directed to:
   <br/>
