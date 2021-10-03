@@ -1,5 +1,6 @@
 # README Generator
-  
+  ![License Badge](https://img.shields.io/github/license/konner.hartman/README-Generator)
+
   ## Description
   This node.js app allows the user to quickly generator a quility README file for any project by answering questions they are prompted with. The app takes the input given by the user and populates each section of the README with the correct information.
   <br/>
