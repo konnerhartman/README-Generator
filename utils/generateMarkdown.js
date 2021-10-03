@@ -14,9 +14,19 @@
 function generateMarkdown(answers) {
   return `# ${answers.title}
   
+  ==========================================================
   ## Description
   ${answers.description}
+  <br/>
+  ${answers.motivation}
+  <br/>
+  ${answers.reason}
+  <br/>
+  ${answers.problem}
+  <br/>
+  ${answers.lesson}
   
+  ==========================================================
   ## Table of Contents
   - [Description](#)
   - [Installation](#installation)
@@ -26,24 +36,32 @@ function generateMarkdown(answers) {
   - [Tests](#tests)
   - [Questions](#questions)
   
+  ==========================================================
   ## Installation
   ${answers.installation}
   
+  ==========================================================
   ## Usage
   ${answers.usage}
   
+  ==========================================================
   ## License
   ${answers.license}
   
+  ==========================================================
   ## Contributors
-  ${answers.contributors}
+  ${answers.credits}
   
+  ==========================================================
   ## Tests
   ${answers.test}
   
+  ==========================================================
   ## Questions
   Any questions can be directed to:
+  <br/>
   Github: [${answers.github}](https://github.com/${answers.github})
+  <br/>
   Email: ${answers.email}
 `;
 }

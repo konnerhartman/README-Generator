@@ -22,7 +22,27 @@ inquirer
         {
             type: 'input',
             name: 'description',
-            message: 'Please breifly describe this prject.',
+            message: 'Please breifly describe this project.',
+        },
+        {
+            type: 'input',
+            name: 'motivation',
+            message: 'What was your motivation?',
+        },
+        {
+            type: 'input',
+            name: 'reason',
+            message: 'Why did you build this product?',
+        },
+        {
+            type: 'input',
+            name: 'problem',
+            message: 'What problem(s) does it solve?',
+        },
+        {
+            type: 'input',
+            name: 'lesson',
+            message: 'What did you lern while builing this?',
         },
         {
             type: 'input',
@@ -46,13 +66,13 @@ inquirer
         },
         {
             type: 'input',
-            name: 'contributors',
-            message: 'Who contributed to this project?',
+            name: 'credits',
+            message: 'Who would you like to give credit to on this project?',
         },
         {
             type: 'input',
             name: 'test',
-            message: 'Does this project include a test?',
+            message: 'If any, what tests does this project include?',
         },
         {
             type: 'input',
