@@ -76,6 +76,11 @@ inquirer
         },
         {
             type: 'input',
+            name: 'links',
+            message: 'Insert links to any deployed pages, demos, ect.'
+        },
+        {
+            type: 'input',
             name: 'test',
             message: 'If any, what tests does this project include?',
         },

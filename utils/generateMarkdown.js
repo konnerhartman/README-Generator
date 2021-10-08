@@ -1,6 +1,6 @@
 function generateMarkdown(answers) {
   return `# ${answers.title}
-  ![License Badge]((https://img.shields.io/badge/License-${answers.license}-lightblue.svg)
+  ![License Badge](https://img.shields.io/badge/License-${answers.license}-green.svg)
   
   ## Description
   ${answers.description}
@@ -23,6 +23,7 @@ function generateMarkdown(answers) {
   - [Usage](#usage)
   - [License](#license)
   - [Credits](#credits)
+  - [Links](#links)
   - [Tests](#tests)
   - [Questions](#questions)
   
@@ -37,6 +38,9 @@ function generateMarkdown(answers) {
   
   ## Credits
   ${answers.credits}
+
+  ## Links
+  ${answers.links}
   
   ## Tests
   ${answers.test}
