@@ -2,19 +2,19 @@
   ![License Badge](https://img.shields.io/badge/License-MIT-green.svg)
   
   ## Description
-  This is an app that allows the user to quickly create high quality README files by answering a few questions in the terminal/bash. This was created with node.js and utilized the 'npm inquirer'.
+  This app was built using node.js. It is a back-end app that allows the user to create high quality README files quickly. This app uses the 'npm' package 'inquirer'.
   <br/>
   <br/>
-  As an individual who creates a lot of READMEs, I wanted to streamline this process without losing quality. 
+  My motivation to build this app was to avoid the tedious process of having to create an enitre README file every time I build a new project.
   <br/>
   <br/>
-  I built this app to eliminate the tedious process of creating a high quality README for every project I build.
+  I built this app to help streamline the process of creating README files while maintaining a high quality.
   <br/>
   <br/>
-  While building this I had issues with getting the license badge to properlly display. 
+  This app will save the user time and ensure that all their README files are of the same format for consistancy.
   <br/>
   <br/>
-  This build taught me about back-end web developement and working only with the terminal/bash.
+  While building this app I learned about back-end development, working withing the terminal/bash by using node.js, and I also learned about npm (node package manager).
   
   ## Table of Contents
   - [Description](#)
@@ -22,23 +22,43 @@
   - [Usage](#usage)
   - [License](#license)
   - [Credits](#credits)
+  - [Links](#links)
+  - [Screencaptures](#screencaptures)
   - [Tests](#tests)
   - [Questions](#questions)
   
   ## Installation
-  npm init, npm install inquirer
+  To install this the user must navigate to the directory they are working in and in the command line call 'npm init', then 'npm i inquirer'.
   
   ## Usage
-  To quickly and easily create high quality README files.
+  This app will be used by users to optimize their time by cutting back on time spent writing a README file from scratch. This app will prompt the user with several questions and take that input and create a README file for them.
   
   ## License
   MIT
   
   ## Credits
-  Konner Hartman (myself), https://shields.io/, https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+  Konner Hartman (myself)
+  <br/>
+  https://shields.io/ (for the license badge)
+  <br/>
+  https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide (documentation on professional READMEs)
+
+  ## Links
+  https://youtu.be/pIQF5OCFVFs (Demo Video)
+  <br/>
+  https://github.com/konnerhartman/README-Generator (GitHub Repo).
   
+  ## Screencaptures
+  Screenshot:
+  <br/>
+  ![Screenshot](utils/images/ScreenShot.png)
+  <br/>
+  Gif:
+  <br/>
+  ![Gif](utils/images/readmesample.gif)
+
   ## Tests
-  There are no tests.
+  This does not include any tests.
   
   ## Questions
   Any questions can be directed to:
