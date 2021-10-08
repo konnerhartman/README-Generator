@@ -1,6 +1,6 @@
 function generateMarkdown(answers) {
   return `# ${answers.title}
-  ![License Badge](https://img.shields.io/github/license/${answers.github}/${answers.repo})
+  ![License Badge]((https://img.shields.io/badge/License-${answers.license}-lightblue.svg)
   
   ## Description
   ${answers.description}

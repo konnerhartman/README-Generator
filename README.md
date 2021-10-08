@@ -1,22 +1,23 @@
-# README Generator
+# test
+  ![License Badge]((https://img.shields.io/badge/License-MIT-lightblue.svg)
   
   ## Description
-  This node.js app allows the user to quickly generator a quility README file for any project by answering questions they are prompted with. The app takes the input given by the user and populates each section of the README with the correct information.
+  test
   <br/>
   <br/>
-  I was motivated to build this app due to how tedious the process is with creating README files.
+  test
   <br/>
   <br/>
-  I built this app because as a web developer, I am constantly creating new projects that require README files. I wanted to be able to quickly create these, while maintaining good quality. 
+  test
   <br/>
   <br/>
-  This app will save the user time by only requiring them to answer several questions in order to generator a high quality README.
+  test
   <br/>
   <br/>
-  While I was building this app, I learned about ES6, npm, and back-end development.
+  test
   
   ## Table of Contents
-  - [Description](#description)
+  - [Description](#)
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
@@ -25,23 +26,23 @@
   - [Questions](#questions)
   
   ## Installation
-  To install this app, the user must open their terminal or bash while in the desired directory and follow these command lines [npm init -y], then [npm install inquirer].
+  test
   
   ## Usage
-  This app will be used to quickly create high quality README files for any project.
+  test
   
   ## License
-  The MIT License
+  MIT
   
   ## Credits
-  Konner Hartman (myself), Documentation: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide, https://developer.mozilla.org/en-US/
+  test
   
   ## Tests
-  This app does not include any tests.
+  test
   
   ## Questions
   Any questions can be directed to:
   <br/>
-  Github: [konnerhartman](https://github.com/konnerhartman)
+  Github: [test](https://github.com/test)
   <br/>
-  Email: konner.hartman@yahoo.com
+  Email: test
